@@ -10,7 +10,7 @@ public:
 	GPU();
 	GPU(const char* n, const char* s, int y, double pr);
 	GPU(const GPU& obj);
-	~GPU();
+	~GPU(); 
 
 	void Print();
 	char* GetName() const;

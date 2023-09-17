@@ -33,7 +33,7 @@ void SSD::Print()
 }
 SSD::~SSD() {
 	delete[] name;
-	delete[] speed;
+	delete[] speed; 
 	cout << "Destructor" << endl;
 }
 

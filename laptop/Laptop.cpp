@@ -79,7 +79,7 @@ Laptop::~Laptop()
 	cout << "Destructor" << endl;
 }
 
-double Laptop::CalculateAll() const
+double Laptop::CalculateAll() const 
 {
 	count = price + cpu.GetPrice() + ssd.GetPrice() + gpu.GetPrice() + ram.GetPrice();
 	return count;

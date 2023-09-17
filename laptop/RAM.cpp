@@ -17,7 +17,7 @@ RAM::RAM(const char* n, const char* s, int y, double pr) {
 	year = y;
 	price = pr;
 	cout << "Constructor with four parameters" << endl;
-}
+} 
 RAM::RAM(const RAM& obj)
 {
 	name = new char[strlen(obj.name) + 1];

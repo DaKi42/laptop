@@ -14,7 +14,7 @@ public:
 
 	void Print();
 	char* GetName() const;
-	char* GetSpeed() const;
+	char* GetSpeed() const; 
 	int GetYear() const;
 	double GetPrice() const;
 	void SetName(char* n);

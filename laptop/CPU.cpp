@@ -24,7 +24,7 @@ CPU::CPU(const CPU& obj)
 	strcpy_s(name, strlen(obj.name) + 1, obj.name);
 	speed = new char[strlen(obj.speed) + 1];
 	strcpy_s(speed, strlen(obj.speed) + 1, obj.speed);
-	year = obj.year;
+	year = obj.year; 
 	price = obj.price;
 }
 void CPU::Print()

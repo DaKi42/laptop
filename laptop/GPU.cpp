@@ -16,7 +16,7 @@ GPU::GPU(const char* n, const char* s, int y, double pr) {
 	strcpy_s(speed, strlen(s) + 1, s);
 	year = y;
 	price = pr;
-	cout << "Constructor with four parameters" << endl;
+	cout << "Constructor with four parameters" << endl; 
 }
 GPU::GPU(const GPU& obj)
 {

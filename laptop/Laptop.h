@@ -28,5 +28,5 @@ public:
 	~Laptop();
 
 	void Print();
-	double CalculateAll() const;
+	double CalculateAll() const; 
 };
