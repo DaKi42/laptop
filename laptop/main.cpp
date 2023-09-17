@@ -7,7 +7,7 @@ double Laptop::count = 0;
 int main() {
     Laptop first("Dell XPS 15", "Dell", 2023, 999.99,
         "Intel Core i5", "2.4 GHz", 2022, 199.99,
-        "Samsung 512GB SSD", "550 MB/s", 2021, 79.99,
+        "Samsung 512GB SSD", "550 MB/s", 2021, 79.99, 
         "NVIDIA GeForce GTX 1650", "1500 MHz", 2020, 299.99,
         "Corsair 16GB DDR4", "3200 MHz", 2022, 89.99);
 
